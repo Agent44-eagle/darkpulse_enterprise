@@ -1037,9 +1037,9 @@ void print_usage() {
     printf("  --no-spoof     Disable IP spoofing\n");
     printf("\n");
     printf("EXAMPLES:\n");
-    printf("  sudo ./darkpulse_enterprise example.com -p 80 -t 100 -a 4 -i 80\n");
-    printf("  sudo ./darkpulse_enterprise 192.168.1.100 -t 50 -a 2 -d 600\n");
-    printf("  sudo ./darkpulse_enterprise 203.0.113.10 -p 443 -a 3 -t 80\n");
+    printf("  sudo ./darkpulse example.com -p 80 -t 100 -a 4 -i 80\n");
+    printf("  sudo ./darkpulse 192.168.1.100 -t 50 -a 2 -d 600\n");
+    printf("  sudo ./darkpulse  203.0.113.10 -p 443 -a 3 -t 80\n");
     printf("\n");
 }
 
