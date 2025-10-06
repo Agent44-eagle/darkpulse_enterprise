@@ -15,7 +15,7 @@ Help defensive teams evaluate rate‑limiting, WAF rules, CDN protections, SYN�
 Support research into detection heuristics (TTL/window anomalies, spoofing indicators, request signature changes) and mitigation playbooks.
 
 
-High‑level Features
+## HIGH-LEVEL FEATURES 
 
 Hybrid Traffic Modes: Combines low‑level raw packet forging (custom IP/TCP fields) with multi‑threaded HTTP request generation to simulate mixed attacks.
 
@@ -31,7 +31,7 @@ Extensible Architecture: Modular components separate packet forging and HTTP log
 
 
 
-##Legal & Ethical Notice (must read)
+## LEGAL & ETHICAL  NOTICE (MUST READ) 
 
 Do not run this against any system unless you have explicit written authorization from the system owner and have coordinated with any upstream providers (hosting, ISP, CDN).
 
@@ -40,7 +40,7 @@ Always run tests in isolated lab environments or dedicated staging infrastructur
 Obtain written authorization, define test scope and fail‑safe procedures, and inform stakeholders (network ops, security, and legal) before any test.
 
 
-##Responsible Testing Guidelines
+## RESPONSIBLE  TESTING  GUIDELINES  
 
 Use only in dedicated, instrumented testbeds or on resources you own/control.
 
