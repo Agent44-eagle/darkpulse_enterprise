@@ -65,7 +65,7 @@ sudo apt-get install libcurl4-openssl-dev
 
 
 ## Usage :
-https://github.com/Agent44-eagle/darkpulse_enterprise.git
+git clone https://github.com/Agent44-eagle/darkpulse_enterprise.git
 
 cd darkpulse_enterprise   
 
