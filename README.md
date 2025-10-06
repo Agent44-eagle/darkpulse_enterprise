@@ -6,7 +6,6 @@ DarkPulse Enterprise is a research / testing framework that simulates high‑vol
 This repository contains techniques that can impact networked systems. Use of these capabilities is strictly limited to authorized test environments (lab, staging systems, or targets for which you have explicit, written permission). Unauthorized testing against systems you do not own or have permission to test is illegal and unethical. The authors do not condone misuse and are not responsible for unlawful activity.
 
 
-
 Purpose
 
 Provide a configurable toolset to emulate complex traffic patterns that stress both network and application layers.
@@ -67,10 +66,11 @@ sudo apt-get install libcurl4-openssl-dev
 
 ## Usage : 
 git clone https://github.com/Agent44-eagle/darkpluse.git 
+
 cd darkpulse 
 
 # Compile the tool
 gcc -o darkpulse darkpulse_enterprise_stealth.c -lpthread -lcurl -O2 -Wall
 
 ##Example 
-
+sudo ./darkpulse -h 
