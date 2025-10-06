@@ -70,6 +70,8 @@ git clone https://github.com/Agent44-eagle/darkpulse_enterprise.git
 cd darkpulse_enterprise   
 
 # Compile the tool
+sudo apt-get install libcurl4-openssl-dev
+
 gcc -o darkpulse darkpulse_enterprise_stealth.c -lpthread -lcurl -O2 -Wall
 
 ##Example 
