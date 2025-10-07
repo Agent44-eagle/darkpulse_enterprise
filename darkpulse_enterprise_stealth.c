@@ -1026,7 +1026,7 @@ void print_banner() {
 }
 
 void print_usage() {
-    printf("USAGE: sudo ./darkpulse_enterprise <TARGET> [OPTIONS]\n\n");
+    printf("USAGE: sudo ./darkpulse <TARGET> [OPTIONS]\n\n");
     printf("OPTIONS:\n");
     printf("  -p PORT        Target port (default: 80)\n");
     printf("  -t THREADS     Number of threads (default: 50, max: %d)\n", MAX_THREADS);
