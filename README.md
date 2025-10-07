@@ -76,4 +76,4 @@ gcc -o darkpulse darkpulse_enterprise_stealth.c -lpthread -lcurl -O2 -Wall
 
 ##Example 
 
-sudo ./darkpulse -h 
+sudo ./darkpulse 
